@@ -34,7 +34,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run format-code"
+      "pre-push": "npm run format-code"
     }
   }
 }
