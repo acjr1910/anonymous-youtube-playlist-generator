@@ -33,6 +33,8 @@
     "sweetalert2": "^11.4.10"
   },
   "husky": {
-    "pre-commit": "npm run format-code"
+    "hooks": {
+      "pre-commit": "npm run format-code"
+    }
   }
 }
